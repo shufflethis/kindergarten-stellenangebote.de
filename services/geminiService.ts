@@ -1,13 +1,12 @@
 import { GoogleGenAI } from "@google/genai";
 import { GeneratorParams } from "../types";
 
-const apiKey = process.env.API_KEY || '';
-const ai = new GoogleGenAI({ apiKey });
-
 export const generateJobDescription = async (params: GeneratorParams): Promise<string> => {
+  const apiKey = process.env.API_KEY || process.env.GEMINI_API_KEY || '';
   if (!apiKey) {
-    throw new Error("API Key is missing. Please check your environment configuration.");
+    throw new Error("API Key fehlt. Bitte setzen Sie GEMINI_API_KEY in Ihren Vercel Umgebungsvariablen.");
   }
+  const ai = new GoogleGenAI({ apiKey });
 
   const prompt = `
     Erstelle eine professionelle, einladende und strukturierte Stellenanzeige (auf Deutsch) für einen Kindergarten oder eine Kita.
