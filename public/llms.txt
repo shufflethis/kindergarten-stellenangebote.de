@@ -1,0 +1,19 @@
+# HR-UPDATER: v1.0
+# kindergarten-stellenangebote.de - Kindergarten Stellenangebote
+
+> kindergarten-stellenangebote.de ist ein spezialisiertes Jobportal fuer Kindergarten-Stellenangebote in Deutschland, Oesterreich und der Schweiz.
+
+## Ueber uns
+- Spezialisiertes Jobportal fuer Kindergarten
+- Kostenlose Stellensuche fuer Bewerber
+- Gezielte Reichweite fuer Arbeitgeber
+
+## Kontakt
+- Website: https://kindergarten-stellenangebote.de
+- Arbeitgeber-Kontakt: https://kindergarten-stellenangebote.de/kontakt-arbeitgeber
+- Bewerber-Kontakt: https://kindergarten-stellenangebote.de/kontakt-bewerber
+
+## Inhalte
+- Aktuelle Kindergarten-Stellenangebote
+- Karriere-Ratgeber fuer Kindergarten
+- Gehaltsvergleiche und Brancheninformationen

@@ -6,6 +6,8 @@ import Home from './pages/Home';
 import Jobs from './pages/Jobs';
 import EmployerAI from './pages/EmployerAI';
 import Impressum from './pages/Impressum';
+import Datenschutz from './pages/Datenschutz';
+import AutorSeite from './pages/AutorSeite';
 
 const App: React.FC = () => {
   return (
@@ -18,6 +20,9 @@ const App: React.FC = () => {
             <Route path="/jobs" element={<Jobs />} />
             <Route path="/employer" element={<EmployerAI />} />
             <Route path="/impressum" element={<Impressum />} />
+                    {/* // HR-UPDATER: v1.0 */}
+          <Route path="/datenschutz" element={<Datenschutz />} />
+          <Route path="/autor/thomas-sander" element={<AutorSeite />} />
           </Routes>
         </main>
         <Footer />

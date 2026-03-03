@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "kindergarten-stellenangebote.de",
+  "url": "https://kindergarten-stellenangebote.de",
+  "description": "Spezialisiertes Jobportal fuer Kindergarten-Stellenangebote in Deutschland, Oesterreich und der Schweiz.",
+  "logo": "https://kindergarten-stellenangebote.de/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "availableLanguage": [
+      "German",
+      "English"
+    ]
+  },
+  "sameAs": []
+}
