@@ -6,6 +6,132 @@ import { Search, Filter } from 'lucide-react';
 const DUMMY_JOBS: Job[] = [
   {
     id: '1',
+    title: 'Facility Manager (m/w/d) im Bereich People, Culture & Places',
+    employer: 'Star Finanz GmbH',
+    location: 'Hamburg',
+    type: 'Vollzeit',
+    tags: [],
+    postedDate: '2026-03-08'
+  },
+  {
+    id: '2',
+    title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    employer: 'HUK-COBURG Versicherungsgruppe',
+    location: 'Weißenburg i. Bayern',
+    type: 'Vollzeit',
+    tags: [],
+    postedDate: '2026-03-08'
+  },
+  {
+    id: '3',
+    title: 'Versicherungs- und Finanzexperte im angestellten Außendienst im Raum Weißenburg/Gunzenhausen (w/m/d)',
+    employer: 'HUK-COBURG Versicherungsgruppe',
+    location: 'Nürnberg',
+    type: 'Vollzeit',
+    tags: [],
+    postedDate: '2026-03-08'
+  },
+  {
+    id: '4',
+    title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    employer: 'Sikla GmbH',
+    location: 'Nürnberg',
+    type: 'Vollzeit',
+    tags: [],
+    postedDate: '2026-03-08'
+  },
+  {
+    id: '5',
+    title: 'Key Account Manager (m/w/d) - Gebiet Großraum Nürnberg - München',
+    employer: 'Sikla GmbH',
+    location: 'München',
+    type: 'Vollzeit',
+    tags: [],
+    postedDate: '2026-03-08'
+  },
+  {
+    id: '6',
+    title: 'Pflegefachkräfte oder Medizinische Fachangestellte (m/w/d) für die Dialyse',
+    employer: 'Nephrocare Salzgitter GmbH Medizinisches Versorgungszentrum',
+    location: 'Salzgitter',
+    type: 'Vollzeit',
+    tags: [],
+    postedDate: '2026-03-08'
+  },
+  {
+    id: '7',
+    title: 'Erzieher*in (m/w/d)',
+    employer: 'Caritasverband Gießen e.V.',
+    location: 'Gießen, Lahn',
+    type: 'Vollzeit',
+    tags: ['Erzieher/in'],
+    postedDate: '2026-03-07'
+  },
+  {
+    id: '8',
+    title: 'Erzieher (m/w/d) für den Kindergarten',
+    employer: 'Ev. Kirchengemeinde Langenhain Kindertagesstätte',
+    location: 'Hofheim am Taunus',
+    type: 'Vollzeit',
+    tags: ['Erzieher/in'],
+    postedDate: '2026-03-06'
+  },
+  {
+    id: '9',
+    title: 'Reinigungskraft (m/w/d) für einen Kindergarten',
+    employer: 'Stadtverwaltung Sigmaringen Hauptverwaltung',
+    location: 'Sigmaringen',
+    type: 'Vollzeit',
+    tags: ['Helfer/in - Reinigung'],
+    postedDate: '2026-03-06'
+  },
+  {
+    id: '10',
+    title: 'Erzieher (m/w/d) im Kindergarten',
+    employer: 'PERSO PLANKONTOR GmbH',
+    location: 'Langenhagen, Han',
+    type: 'Vollzeit',
+    tags: ['Erzieher/in'],
+    postedDate: '2026-03-06'
+  },
+  {
+    id: '11',
+    title: 'Erzieher (m/w/d)  - Kindergarten',
+    employer: 'PERSO PLANKONTOR GmbH',
+    location: 'Pattensen bei Hannover',
+    type: 'Vollzeit',
+    tags: ['Erzieher/in'],
+    postedDate: '2026-03-06'
+  },
+  {
+    id: '12',
+    title: 'Erzieher (m/w/d)  im Kindergarten',
+    employer: 'PERSO PLANKONTOR GmbH',
+    location: 'Seelze',
+    type: 'Vollzeit',
+    tags: ['Erzieher/in'],
+    postedDate: '2026-03-06'
+  },
+  {
+    id: '13',
+    title: 'Sozialassistent (m/w/d) Kindergarten',
+    employer: 'PERSO PLANKONTOR Nord GmbH',
+    location: 'Vechta',
+    type: 'Vollzeit',
+    tags: ['Sozialassistent/in'],
+    postedDate: '2026-03-05'
+  },
+  {
+    id: '14',
+    title: 'Individualbegleiter (m/w/d) im Kindergarten',
+    employer: 'Malteser Hilfsdienst gemeinnützige GmbH',
+    location: 'Großmehring',
+    type: 'Vollzeit',
+    tags: ['Schulbegleiter/in'],
+    postedDate: '2026-03-05'
+  },
+  {
+    id: '15',
     title: 'Reinigungshelfer - Kindergarten (m/w/d)',
     employer: 'PerZukunft Arbeitsvermittlung GmbH&Co.KG',
     location: 'Berlin',
@@ -14,7 +140,7 @@ const DUMMY_JOBS: Job[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '2',
+    id: '16',
     title: 'Einrichtungsleiter*in Kindergarten, Erzieher*in',
     employer: 'AWO Bezirksverband Baden e.V.',
     location: 'Weil am Rhein',
@@ -23,7 +149,7 @@ const DUMMY_JOBS: Job[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '3',
+    id: '17',
     title: 'Pädagogische Fachkraft (Kindergarten) (m/w/d)',
     employer: 'Ev. Kirchengemeinde Hahn',
     location: 'Pfungstadt',
@@ -32,7 +158,7 @@ const DUMMY_JOBS: Job[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '4',
+    id: '18',
     title: 'Erzieher (m/w/d)',
     employer: 'Verbandsgemeinde Ruwer',
     location: 'Waldrach',
@@ -41,7 +167,7 @@ const DUMMY_JOBS: Job[] = [
     postedDate: '2026-03-04'
   },
   {
-    id: '5',
+    id: '19',
     title: 'Erzieher (m/w/d) Kindergarten',
     employer: 'Klinikum Garmisch-Partenkirchen',
     location: 'Garmisch-Partenkirchen',
@@ -50,7 +176,7 @@ const DUMMY_JOBS: Job[] = [
     postedDate: '2026-03-03'
   },
   {
-    id: '6',
+    id: '20',
     title: 'Heilerziehungspfleger (m/w/d) Kindergarten',
     employer: 'PERSO PLANKONTOR GmbH',
     location: 'Hannover',
@@ -59,7 +185,7 @@ const DUMMY_JOBS: Job[] = [
     postedDate: '2026-03-03'
   },
   {
-    id: '7',
+    id: '21',
     title: 'Hilfskraft als Individualbegleitung im Kindergarten (m/w/d)',
     employer: 'Regens Wagner Hohenwart',
     location: 'Freising, Oberbayern',
@@ -68,7 +194,7 @@ const DUMMY_JOBS: Job[] = [
     postedDate: '2026-03-03'
   },
   {
-    id: '8',
+    id: '22',
     title: 'Bodenleger/in - Kindergärten - Berlin  (m/w/d)',
     employer: 'PerZukunft Arbeitsvermittlung GmbH&Co.KG',
     location: 'Berlin',
@@ -77,7 +203,7 @@ const DUMMY_JOBS: Job[] = [
     postedDate: '2026-03-03'
   },
   {
-    id: '9',
+    id: '23',
     title: 'Einrichtungsleitung, Kindergarten Graslilienanger',
     employer: 'Stiftung zusammen. tun.',
     location: 'München',
@@ -86,7 +212,7 @@ const DUMMY_JOBS: Job[] = [
     postedDate: '2026-03-03'
   },
   {
-    id: '10',
+    id: '24',
     title: 'Erzieher m/w/d',
     employer: 'Arnold Röll Beratung und Vermi ttlung von Arbeitskräften',
     location: 'Offenburg',
@@ -95,139 +221,13 @@ const DUMMY_JOBS: Job[] = [
     postedDate: '2026-03-03'
   },
   {
-    id: '11',
+    id: '25',
     title: 'Heilerziehungspfleger (m/w/d) Kindergarten',
     employer: 'KCS Medical GmbH',
     location: 'Köln',
     type: 'Vollzeit',
     tags: ['Heilerziehungspfleger/in'],
     postedDate: '2026-02-27'
-  },
-  {
-    id: '12',
-    title: 'Küchenhilfe (m/w/d) Kindergarten',
-    employer: 'Gemeinde Hohenthann',
-    location: 'Hohenthann bei Landshut, Isar',
-    type: 'Vollzeit',
-    tags: ['Helfer/in - Küche'],
-    postedDate: '2026-02-26'
-  },
-  {
-    id: '13',
-    title: 'Reinigungskraft für einen Kindergarten',
-    employer: 'Andrea Kloppisch Haushalt- und Büroservice',
-    location: 'Dresden',
-    type: 'Vollzeit',
-    tags: ['Gebäudereiniger/in'],
-    postedDate: '2026-02-25'
-  },
-  {
-    id: '14',
-    title: 'Kinderpflegerin (m/w/d) im Kindergarten',
-    employer: 'Ev.-Luth. Kirchengemeinde Augsburg Auferstehungskirche KiTa Auferstehungskirche',
-    location: 'Augsburg, Bayern',
-    type: 'Vollzeit',
-    tags: ['Sozialpädagogische/r Assistent/in / Kinderpfleger/in'],
-    postedDate: '2026-02-25'
-  },
-  {
-    id: '15',
-    title: 'Köche m/w/d für Kindergärten',
-    employer: 'Socco Group GmbH NL Hamburg',
-    location: 'Hamburg',
-    type: 'Vollzeit',
-    tags: ['Koch/Köchin'],
-    postedDate: '2026-02-24'
-  },
-  {
-    id: '16',
-    title: 'Individualbegleitung / Kindergarten',
-    employer: 'Ambulanter Pflegedienst Hände die Helfen',
-    location: 'München',
-    type: 'Vollzeit',
-    tags: ['Schulbegleiter/in'],
-    postedDate: '2026-02-24'
-  },
-  {
-    id: '17',
-    title: 'Erzieher (m/w/d) Kindergarten',
-    employer: 'PERSO PLANKONTOR GmbH',
-    location: 'Markkleeberg',
-    type: 'Vollzeit',
-    tags: ['Erzieher/in'],
-    postedDate: '2026-02-24'
-  },
-  {
-    id: '18',
-    title: 'Erzieher (m/w/d) Kindergarten',
-    employer: 'PERSO PLANKONTOR GmbH',
-    location: 'Brandis bei Wurzen',
-    type: 'Vollzeit',
-    tags: ['Erzieher/in'],
-    postedDate: '2026-02-24'
-  },
-  {
-    id: '19',
-    title: 'Hausmeister für Kindergarten (m/w/d)',
-    employer: 'PerZukunft Arbeitsvermittlung GmbH&Co.KG',
-    location: 'Berlin',
-    type: 'Vollzeit',
-    tags: ['Hausmeister/in'],
-    postedDate: '2026-02-19'
-  },
-  {
-    id: '20',
-    title: 'Individualbegleiter (m/w/d) im Kindergarten',
-    employer: 'Malteser Hilfsdienst gemeinnützige GmbH',
-    location: 'Beilngries',
-    type: 'Vollzeit',
-    tags: ['Schulbegleiter/in'],
-    postedDate: '2026-02-18'
-  },
-  {
-    id: '21',
-    title: 'Spüler in einem Kindergarten (m/w/d)',
-    employer: 'PerZukunft Arbeitsvermittlung GmbH&Co.KG',
-    location: 'Berlin',
-    type: 'Vollzeit',
-    tags: ['Helfer/in - Küche'],
-    postedDate: '2026-02-17'
-  },
-  {
-    id: '22',
-    title: 'Einrichtungsleitung Kindergarten',
-    employer: 'Zipfelmützen e.V.',
-    location: 'Walldorf, Baden',
-    type: 'Vollzeit',
-    tags: ['Gruppen-, Teamleiter/in'],
-    postedDate: '2026-02-16'
-  },
-  {
-    id: '23',
-    title: 'Heilerziehungspfleger (m/w/d) Kindergarten',
-    employer: 'PERSO PLANKONTOR GmbH',
-    location: 'Seelze',
-    type: 'Vollzeit',
-    tags: ['Heilerziehungspfleger/in'],
-    postedDate: '2026-02-16'
-  },
-  {
-    id: '24',
-    title: 'Sozialassistent im Kindergarten (m/w/d)',
-    employer: 'PERSO PLANKONTOR GmbH',
-    location: 'Hildesheim',
-    type: 'Vollzeit',
-    tags: ['Sozialassistent/in'],
-    postedDate: '2026-02-13'
-  },
-  {
-    id: '25',
-    title: 'Sozialassistent im Kindergarten (m/w/d)',
-    employer: 'PERSO PLANKONTOR GmbH',
-    location: 'Hannover',
-    type: 'Vollzeit',
-    tags: ['Sozialassistent/in'],
-    postedDate: '2026-02-12'
   }
 ];
 
